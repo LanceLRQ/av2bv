@@ -1,3 +1,3 @@
-module github.com/lancelrq/av2bv
+module github.com/LanceLRQ/av2bv
 
 go 1.11
