@@ -15,13 +15,13 @@ Go version >= 1.11 and go module on.
 Encode （AV => BV)
 
 ```go
-av2bv.Encode(170001)										// Avid is a uint64 number.
+av2bv.Encode(170001)        // Avid is a uint64 number.
 ```
 
 ```go
 bvid, err := av2bv.EncodeString("av170001")
 if err != nil { 
-	// Error
+    // Error
 }
 fmt.Println(bvid)
 ```
@@ -29,13 +29,13 @@ fmt.Println(bvid)
 Decode (BV => AV)
 
 ```go
-av2bv.Decode([]byte("17x411w7KC"))			// Bvid is a byte array
+av2bv.Decode([]byte("17x411w7KC"))        // Bvid is a byte array
 ```
 
 ```go
 avid, err := av2bv.DecodeString("BV17x411w7KC")
 if err != nil { 
-	// Error
+    // Error
 }
 fmt.Println(avid)
 ```
