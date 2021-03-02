@@ -24,6 +24,7 @@ if err != nil {
     // Error
 }
 fmt.Println(bvid)
+// BV17x411w7KC
 ```
 
 Decode (BV => AV)
@@ -38,6 +39,7 @@ if err != nil {
     // Error
 }
 fmt.Println(avid)
+// av170001
 ```
 
 ## Algorithm & Thanks
